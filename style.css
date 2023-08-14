@@ -46,7 +46,7 @@
     height: 500px;
     width: 100%;
     justify-content: space-around;
-    background-image: url(./old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-room-wall.jpg);
+    background-image: url(./bg-img.jpg);
     background-size: 100% 500px;
     color: white;
 
@@ -55,4 +55,32 @@
 .info{
     font-size: 50px;
     align-self: center;
+}
+
+#skills{
+    display: flex;
+    background-image: url(./bg-img.jpg);
+    height: 500px;
+    width: 100%;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+.html , .css , .js {
+    height: 300px;
+    width: 300px;
+    background-color: white;
+
+}
+
+
+#skills > .html > h2 , #skills > .css > h2 , #skills > .js > h2 {
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.htmlabout , .cssabout , .jsabout{
+    margin-top: 5px;
+    margin-left: 10px;
+    font-size: larger;
 }
