@@ -3,6 +3,16 @@
     padding: 0%;
 }
 
+.hi{
+    font-size: larger;
+    font-weight: bolder;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
 
 .container{
     display: flex;
@@ -57,24 +67,37 @@
     align-self: center;
 }
 
+
 #skills{
-    display: flex;
+    display: grid;
     background-image: url(./bg-img.jpg);
     height: 500px;
     width: 100%;
-    justify-content:space-evenly;
-    align-items: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px 400px;
+    gap: 5px;
+}
+
+.skills{
+    grid-column: span 4;
+    color: white;
+    margin-left: 680px;
+    margin-top: 10px;
+    font-size: 30px ;
 }
 
 .html , .css , .js {
     height: 300px;
     width: 300px;
     background-color: white;
-
 }
 
+.fc{
+    display: flex;
+    justify-content: space-around;
+}
 
-#skills > .html > h2 , #skills > .css > h2 , #skills > .js > h2 {
+h2 {
     margin-top: 5px;
     margin-left: 10px;
 }
